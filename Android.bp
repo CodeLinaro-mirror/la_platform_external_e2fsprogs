@@ -49,6 +49,7 @@ cc_defaults {
         // supported by upstream e2fsprogs.  When such a warning shows up,
         // disable it below.  Please don't disable warnings that upstream
         // e2fsprogs is supposed to support; for those, fix the code instead.
+        "-Wno-macro-redefined",
         "-Wno-pointer-arith",
         "-Wno-sign-compare",
         "-Wno-type-limits",
